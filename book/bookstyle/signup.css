@@ -1,0 +1,125 @@
+@font-face { font-family: Raleway; src: url('Raleway-Regular.ttf'); }
+@font-face { font-family: Raleway lite; src: url('Raleway-Light.ttf'); } 
+@font-face { font-family: Raleway xlite; src: url('Raleway-ExtraLight.ttf'); }
+@font-face { font-family: Roboto; src: url('Roboto-Regular.ttf'); }
+@font-face { font-family: Roboto med; src: url('Roboto-Medium.ttf'); } 
+@font-face { font-family: Roboto lite; src: url('Roboto-Light.ttf'); }
+html {
+    font-family:Raleway;;
+    color: currentColor;
+}
+body {
+    position: absolute;
+    margin:0px auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F6EA;
+}
+.mainbox {  
+    position: relative;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px auto 0px auto;
+    width: 30%;
+    max-width: 290px;
+    height: 300px;
+    background: #F5F5F5;
+    box-shadow: 0px 3px 7px -1.8px #242424;
+    border-radius: 4px;
+    clear: both;
+}
+
+.signtext{
+    font-size: 19px;
+    margin: 0px;
+    margin: 3px 0px 20px 0px;
+}
+.head{
+    color: #414141;
+    font-size: 37px;
+    font-weight: 600;
+}
+.tiny{
+    position: absolute;
+    bottom: 103px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    color: #F22D2D;
+    font-size: 13px;
+}
+
+input{
+    display: block;
+}
+.signput{
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin: 15px 0px 5px 0px;
+    left: 6.4%;
+    display: block;
+    width: 86%;
+    height: 34px;
+    color: #505050;
+    border-radius: 2px;
+    font-size: 18px;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    box-shadow: inset 0px .3px 4px -1px #131313;
+    clear: both;
+}
+.subbut{
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 5px;
+    margin: 15px 0px 5px 0px;
+    bottom: 27px;
+    left: 6.4%;
+    display: block;
+    width: 86%;
+    height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    background: #4CD900;
+    box-shadow: inset 0px .3px 4.4px -1px #2A6609;
+    clear: both;
+}
+.signup{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    color: #431469;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.googbut{
+    position: absolute;
+    padding-top: 5px;
+    top: 315px;
+    left: 5%;
+    display: block;
+    width: 90%;
+    height: 30px;
+    background: #BD1717;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0px 2px 9px -3px #242424;
+    clear: both;
+}

@@ -1,0 +1,157 @@
+@font-face { font-family: Raleway; src: url('Raleway-Regular.ttf'); }
+@font-face { font-family: Raleway lite; src: url('Raleway-Light.ttf'); } 
+@font-face { font-family: Raleway heavy; src: url('Raleway-Bold.ttf'); }
+@font-face { font-family: Raleway med; src: url('Raleway-Medium.ttf'); }
+@font-face { font-family: Roboto; src: url('Roboto-Regular.ttf'); }
+@font-face { font-family: Roboto med; src: url('Roboto-Medium.ttf'); } 
+@font-face { font-family: Roboto lite; src: url('Roboto-Light.ttf'); }
+html {
+    font-family:Raleway;;
+    color: currentColor;
+}
+body {
+    position: absolute;
+    margin:0px auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F6EA;
+}
+.infobox {  
+    position: relative;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 7px;
+    margin: 0px auto 0px auto;
+    //width: 50%;
+    width: 560px;
+    height: 350px;
+    background: #F5F5F5;
+    box-shadow: 0px 3px 7px -1.8px #242424;
+    border-radius: 4px;
+    clear: both;
+}
+
+.infotext{
+    font-size: 18px;
+    margin: 0px;
+    margin: 3px 0px 5px 0px;
+}
+.head{
+    color: #414141;
+    font-size: 37px;
+    font-weight: 600;
+    margin: 0px 0px 3px 0px;
+}
+.stripe{
+    position: relative;
+    font-family: Raleway heavy;
+    text-align: justify;
+    margin: 0px 0px 7px 15px;
+    color: transparent;
+    font-size: 60px;
+    font-weight: 700;
+    background-color: #053AE8;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.4);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.stripem{
+    font-family: Raleway med;
+    margin: 0px 10px 3px 27px;
+    text-align: justify;
+    font-weight: 600;
+    background-color: #303030;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.4);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.desc{
+    font-family: Raleway med;
+    margin: 0px 10px 25px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #454545;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.4);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.bg{
+    font-size: 19px;
+}
+.tiny{
+    position: absolute;
+    bottom: 103px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    color: #F22D2D;
+    font-size: 13px;
+}
+
+input{
+    display: block;
+}
+.infoput{
+    font-family: Raleway;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin: 15px 0px 5px 0px;
+    left: 6.4%;
+    display: block;
+    width: 86%;
+    height: 34px;
+    color: #505050;
+    border-radius: 2px;
+    font-size: 18px;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    box-shadow: inset 0px .3px 4px -1px #131313;
+    clear: both;
+}
+.infobut{
+    font-family: Raleway med;
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 5px;
+    margin: 15px 0px 5px 0px;
+    bottom: 20px;
+    left: 6.4%;
+    display: block;
+    width: 86%;
+    height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    background: #4CD900;
+    box-shadow: inset 0px .3px 4.4px -1px #2A6609;
+    clear: both;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.infobut:hover{
+    background: #53EC00;
+}
+.container{
+    position: relative;
+}
+
+
+
+
+
+
+
+

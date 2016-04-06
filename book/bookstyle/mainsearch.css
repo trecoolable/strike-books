@@ -1,0 +1,732 @@
+@font-face { font-family: Raleway; src: url('Raleway-Regular.ttf'); }
+@font-face { font-family: Raleway lite; src: url('Raleway-Light.ttf'); } 
+@font-face { font-family: Raleway xlite; src: url('Raleway-ExtraLight.ttf'); }
+@font-face { font-family: Raleway big; src: url('Raleway-Bold.ttf'); }
+@font-face { font-family: Amaranth; src: url('Amaranth-Regular.otf'); }
+@font-face { font-family: Amaranth it; src: url('Amaranth-Italic.otf'); } 
+@font-face { font-family: Roboto lite; src: url('Roboto-Light.ttf'); }
+@font-face { font-family: Serif6 it; src: url('Serif6beta-Italic.otf'); }
+@font-face { font-family: Serif6 bit; src: url('Serif6beta-BoldItalic.otf'); }
+@font-face { font-family: Lobster it; src: url('LobsterTwo-Italic.otf'); }
+html {
+    font-family:Raleway;;
+    color: currentColor;
+}
+body {
+    position: absolute;
+    margin:0px auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FCFAEA;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    //background-image: url("http://www.wvusports.com/content/images/Index/football/Football-Main.jpg");
+    background-repeat: round;
+    background-size: cover;
+}
+.base{
+    z-index: 9;
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background: #74AAFF;//background: linear-gradient(to bottom, #62ef2f 0%,#53ef0b 100%);
+    //background-image: url("http://www.wvusports.com/content/images/Index/football/Football-Main.jpg");
+}
+.topperup{
+    position: fixed;
+    z-index: 20;
+    //padding: 5px;
+    background: linear-gradient(to bottom, #63e612 0%,#5cc909 100%);
+    height: 60px;
+    width: 100vw;
+    box-shadow: 0px 2.3px 7px -2px #242424;
+}
+.topperbox{
+    position: fixed;
+    padding: 1px;
+    top: 5px;
+    left: 25px;
+    height: 50px;
+    width: 126px;
+    border-radius: 5px;
+    background: #FAFCDB;
+    box-shadow: inset 0px 0.3px .3px 1px #939393;
+    overflow: hidden;
+}
+.toppercv{
+    z-index: 10;
+    position: fixed;
+    margin: 0px;
+    top: -4px;
+    left: 30px;
+    //right: 0px;
+    font-family: Lobster it;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 500;
+    color: transparent;
+    text-shadow: 0px .8px 1px #939393;
+    cursor: pointer;
+    //transition: text-shadow 0.17s;
+    transition: font-size 0.3s;
+}
+.topper{
+    z-index: 10;
+    position: fixed;
+    margin: 0px;
+    top: -4px;
+    left: 30px;
+    //right: 0px;
+    font-family: Lobster it;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 500;
+    background: -webkit-linear-gradient(#09bad5, #05c0d1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    //transition: text-shadow 0.17s;
+    transition: font-size 0.3s;
+}
+.topper:hover {
+    
+}
+.topperside{
+    font-size: 54px;
+    top: -2px;
+    left: 158px;
+    color: #fff;
+}
+.topsearch{
+    font-size:75px;
+    
+}
+.mainbar{
+    z-index: 10;
+    position: fixed;
+    top: 67px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 7px 3px 3px 3px;
+    margin: 0px auto 0px auto;
+    width: 100%;
+    height: 37px;
+    background: #F5F5F5;
+    box-shadow: 0px 2.3px 7px -2px #242424;
+    border-radius: 0px;
+}
+.barcn{
+    position: relative;
+    min-width: 1000px;
+    width: 92%;
+    left: 2%;
+}
+.bottomcn{
+    width: 80%;
+    text-align: center;
+    top: 60px;
+}
+.barop{
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #121A74;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+    cursor: pointer;
+    transition: background-color 0.17s;
+}
+.barop:hover {
+    background-color: #39D007;
+}
+.optin{
+    background-color: #2A8616;
+}
+.inop{
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #121A74;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.s1{
+    font-style: italic;
+    background-color: #01004E;
+}
+.unitext {
+    font-family: Amaranth it;
+    position: absolute;
+    margin: 0px;
+    left: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: transparent;
+    font-weight: 700;
+    background-color: #121A74;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+    cursor: pointer;
+    transition: text-shadow 0.17s;
+}
+.unitext:hover {
+    text-shadow: 0px 1px 3px rgba(255,255,255,0.2);
+}
+.md{
+    font-size: 23px;
+}
+.logintext {
+    font-family: Amaranth it;
+    position: absolute;
+    margin: 3px 0px 0px 0px;
+    right: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    cursor: pointer;
+}
+.logintext:hover{
+    text-decoration: underline;
+}
+.bookput{
+    display: block;
+    position: absolute;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    width: 47%;
+    height: 27px;
+    left: 28%;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    box-shadow: inset 0px .3px 4px -1px #131313;
+    transition: font-size 0.2s;
+    outline: none;
+}
+.bg {
+    font-size: 21px;
+}
+
+
+
+
+.head{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    margin: 10px 0px 30px 0px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Raleway big;
+    color: transparent;
+    font-weight: 700;
+    background-color: #161616;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.label{
+    
+}
+.filterlb{
+    position: relative;
+    left: 72%;
+    font-family: Raleway big;
+    font-size: 18px;
+    color: #434343;
+}
+.mainput{
+    position: relative;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 14px;
+    color: #323232;
+    border-radius: 3px;
+    box-shadow: inset 0px .3px 4px -1px #131313;
+    outline: none;
+}
+.filtersel{
+    position: relative;
+    padding: 5px;
+    bottom: 40px;
+    left: 81%;
+    outline: none;
+}
+.searchput{
+    padding: 5px;
+    bottom: 37px;
+    right: 110px;
+    width: 23%;
+    height: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0px 1px 4px -1px #131313;
+    border: 0px none;
+    transition: width 0.2s;
+}
+.searchput:hover {
+    width: 360px;
+}
+.critsel{
+    position: relative;
+    bottom: 37px;
+    padding: 5px;
+    width: 130px;
+    right: 100px;
+}
+.restext{
+    position: relative;
+    bottom: 45px;
+    left: 40px;
+    color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #182DA4;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+
+
+.mainbox{
+    position: relative;
+    margin: auto;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    width: 76%;
+    min-width: 900px;
+    height: auto;
+    border-radius: 1px;
+    background: #F5F5F5;
+    box-shadow: 0px 3px 7px -1px #242424;
+    
+}
+.maincontain{
+    position: relative;
+    padding: 1px 0px 30px 0px;
+    bottom: 40px;
+    left: 2%;
+    height: auto;
+    width: 96%;
+    background: #FAF9F1;
+    border-radius: 3px;
+    box-shadow: inset 0px .3px 7px -2px #131313;
+}
+
+
+.recbox{
+    position: relative;
+    margin: 5px 0px 7px 0px;
+    left: 1%;
+    width: 98%;
+    height: 190px;
+    background: #FBFBF8;
+    border-radius: 2px;
+    box-shadow: 0px 1px 7px -2.2px #1D1D1D;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+.recbox:hover{
+    background: #F0FCFD;
+}
+.addbox{
+    background: #FFFFC7;
+    box-shadow: inset 0px .3px 7px -2px #131313;
+    text-align: center;
+}
+.addbox:hover{
+    background: #FFFFC7;
+}
+.noresbox{
+    margin: 4px 0px 5px 0px;
+    height: 37px;
+    background: #A6A6A6;
+    box-shadow: inset 0px .3px 7px -1px #131313;
+    text-align: center;
+}
+.norestext{
+    position: absolute;
+    top: -12px;
+    left: 0px;
+    right: 0px;
+    color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #202020;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.4);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+
+.mainbut{
+    font-family: Raleway med;
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 5px;
+    margin: 15px 0px 5px 0px;
+    bottom: 20px;
+    left: 6.4%;
+    display: block;
+    width: 86%;
+    height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    background: #4CD900;
+    box-shadow: inset 0px .3px 4.4px -1px #2A6609;
+    clear: both;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.mainbut:hover{
+    background: #53EC00;
+}
+.addbut{
+    padding-top: 3px;
+    padding-left: 5px;
+    margin: 15px 0px 5px 0px;
+    bottom: 50px;
+    left: 15%;
+    display: block;
+    width: 70%;
+    height: 60px;
+    font-size: 27px;
+}
+
+.imgbox{
+    display: inline-block;
+    float: left;
+    background-color: #E0FACC;
+    background-image: url("http://www.wvusports.com/content/images/Index/football/Football-Main.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 6px;
+    height: 176px;
+    width: 176px;
+    border-radius: 1px;
+    box-shadow: inset 0px .3px 4.4px -1px #2A6609;
+}
+.infobox{
+    float: left;
+    padding: 7px;
+    height: 175px;;
+    width: 53%;
+}
+.infotext{
+    display: block;
+    margin: 0px 3px 3px 0px;
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 600;
+    color: #2B2B2B;
+}
+.title{
+    font-size: 27px;
+    cursor: pointer;
+    color: #0050C7;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.edition{
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.sm{
+    font-size: 15px;
+}
+
+.pricebox{
+    display: inline-block;
+    float: right;
+    margin: 6px 20px 6px 6px;
+    height: 176px;
+    width: 20%;
+    font-size: 27px;
+    cursor: pointer;
+    color: #0050C7;
+    border-radius: 1px;
+}
+.price{
+    position: relative;
+    left: 0px;
+    top: 40px;
+    font-size: 60px;
+    color: #373737;
+}
+
+
+
+
+.blackout{
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+    margin:0px auto;
+    width: 100vw;
+    height: 100vh;
+    opacity: .7;
+    background-color: #030303;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.interbox{
+    position: fixed;
+    z-index: 25;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 7px;
+    margin: 0px auto 0px auto;
+    //width: 50%;
+    width: 440px;
+    height: 530px;
+    background: #F5F5F5;
+    box-shadow: 0px 3px 7px -1.8px #242424;
+    border-radius: 4px;
+    clear: both;
+}
+.contain{
+    width: 100%;
+}
+.intertext{
+    background-color: #1C1C1C;
+  color: transparent;
+  text-shadow: 0px 1px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.interhead{
+    top: -5px;
+}
+.desc{
+    position: relative;
+    top: -30px;
+    margin: 5px 0px 10px 0px;
+    font-family: Raleway big;
+    font-size: 15px;
+    background-color: #3C3C3C;
+}
+.interput{
+    font-family: Raleway;
+    position: relative;
+    top: -20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin: 10px 0px 5px 0px;
+    left: 10%;
+    display: block;
+    width: 80%;
+    height: 34px;
+    color: #505050;
+    border-radius: 2px;
+    font-size: 18px;
+    text-decoration: none;
+     border: none 1px #296AFF;
+    box-shadow: inset 0px .3px 4px -1px #131313;
+    clear: both;
+}
+.course{
+    display: inline-block;
+    width: 27%;
+    left: 0%;
+}
+.sub{
+    display: inline-block;
+    width: 50%;
+    left: 0%;
+}
+.priceput{
+    position: relative;
+    display: inline-block;
+    bottom: 335px;
+    left: -95px;
+    width: 130px;
+    padding-bottom: 3px;
+    font-family: Raleway;
+    font-size: 29px;
+}
+.upbut{
+    position: relative;
+    width: 42%;
+    left: 215px;
+    bottom: 80px;
+}
+
+
+
+
+
+.bookinter{
+    padding: 7px 10px 0px 10px;
+    height: 430px;
+    width: 680px;
+}
+.biimg{
+    margin: 7px;
+    position: relative;
+    bottom: 30px;
+}
+.bitext{
+    margin: 0px;
+    position: absolute;
+    text-align: justify;
+    display: block;
+    font-size: 16px;
+}
+.bitext span{
+    font-size: 18px;
+}
+.bititle{
+    font-size: 23px;
+    top: 87px;
+    left: 200px;
+}
+.biauth{
+    top: 113px;
+    left: 200px;
+}
+.biisbn{
+    top: 133px;
+    left: 200px;
+}
+.bidesc{
+    top: 180px;
+    font-size: 15px;
+    margin: 0px 20px 0px 190px;
+}
+.selltext{
+    font-size: 15px;
+    left: 200px;
+}
+.biinfo{
+    bottom: 137px;
+    font-size: 17px;
+    left: 20px;
+}
+.bimail{
+    bottom: 117px;
+    left: 25px;
+}
+.binum{
+    bottom: 99px;
+    left: 25px;
+}
+.bimajor{
+    bottom: 82px;
+    left: 25px;
+}
+.bibio{
+    top: 355px;
+    left: 25px;
+    width: 50%;
+}
+.bilocal{
+    top:153px;
+    left: 200px;
+}
+.biprice{
+    font-size: 39px;
+    font-weight: 600;
+    bottom: 100px;
+    right: 95px;
+}
+.getbut{
+    position: absolute;
+    margin: 0px;
+    width: 150px;
+    left: 500px;
+    bottom: 50px;
+}
+.editbut{
+    position: absolute;
+    margin: 0px;
+    width: 150px;
+    left: 500px;
+    bottom: 50px;
+}
+.delbut{
+    position: absolute;
+    margin: 0px;
+    width: 150px;
+    left: 500px;
+    top: 35px;
+}
+.stripebox{
+    position: absolute;
+    width: 150px;
+    left: 500px;
+    bottom: 60px;
+}
+.stripetext{
+    left: 505px;
+    bottom: 23px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+.tiny{
+    z-index: 30;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    color: #F22D2D;
+    font-size: 13px;
+}
+::-webkit-scrollbar {
+    z-index: 5;
+    width: 7px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    z-index: 5;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    z-index: 5;
+    border-radius: 7px;
+    background: #A9A9A9; 
+}
+
+
+
+
